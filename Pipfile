@@ -10,6 +10,9 @@ autopep8 = "*"
 
 [packages]
 scikit-learn = "*"
+ray = "*"
+xgboost = "*"
+pandas = "==0.22"
 
 [requires]
 python_version = "3.6"
