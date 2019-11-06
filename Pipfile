@@ -5,6 +5,8 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+pep8 = "*"
+autopep8 = "*"
 
 [packages]
 scikit-learn = "*"
