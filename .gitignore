@@ -1,3 +1,5 @@
 .vscode
 .python-version
 .ray_results
+
+nni_demo/
