@@ -1,0 +1,6 @@
+scikit-learn 
+ray
+pandas==0.22
+psutil
+keras==2.3.1
+requests

@@ -1,0 +1,126 @@
+{
+  "checkpoints": [
+    {
+      "trainable_name": "train_mnist",
+      "trial_id": "c9640c04",
+      "config": {
+        "threads": 2,
+        "lr": 0.051375223575950174,
+        "momentum": 0.8964846749264076,
+        "hidden": 50
+      },
+      "local_dir": "/home/raywu/personal/nni_demo/nni_demo/ray_results/exp",
+      "evaluated_params": {
+        "lr": 0.051375223575950174,
+        "momentum": 0.8964846749264076,
+        "hidden": 50
+      },
+      "experiment_tag": "0_hidden=50,lr=0.051375,momentum=0.89648",
+      "resources": {
+        "cpu": 2,
+        "gpu": 0,
+        "memory": 0,
+        "object_store_memory": 0,
+        "extra_cpu": 0,
+        "extra_gpu": 0,
+        "extra_memory": 0,
+        "extra_object_store_memory": 0,
+        "custom_resources": {},
+        "extra_custom_resources": {}
+      },
+      "stopping_criterion": {
+        "mean_accuracy": 0.99,
+        "training_iteration": 300
+      },
+      "loggers": "80049502000000000000004e2e",
+      "sync_to_driver_fn": "80049502000000000000004e2e",
+      "verbose": true,
+      "max_failures": 3,
+      "last_result": {
+        "keras_info": {
+          "batch": 299,
+          "size": 128,
+          "loss": 0.18097834289073944,
+          "accuracy": 0.82401043176651,
+          "neg_loss": -0.18097834289073944
+        },
+        "mean_accuracy": 0.82401043176651,
+        "time_this_iter_s": 0.17499160766601562,
+        "done": true,
+        "timesteps_total": null,
+        "episodes_total": null,
+        "training_iteration": 300,
+        "experiment_id": "1c975a0c01d24b99a0790a45cfe7581a",
+        "date": "2019-11-07_10-40-13",
+        "timestamp": 1573094413,
+        "time_total_s": 57.936272382736206,
+        "pid": 6873,
+        "hostname": "miuser-M83",
+        "node_ip": "192.168.3.90",
+        "config": {
+          "threads": 2,
+          "lr": 0.051375223575950174,
+          "momentum": 0.8964846749264076,
+          "hidden": 50
+        },
+        "time_since_restore": 57.936272382736206,
+        "timesteps_since_restore": 0,
+        "iterations_since_restore": 300,
+        "trial_id": "c9640c04"
+      },
+      "last_update_time": 1573094413.9989598,
+      "checkpoint_freq": 0,
+      "checkpoint_at_end": false,
+      "history": [],
+      "keep_checkpoints_num": null,
+      "_cmp_greater": true,
+      "best_checkpoint_attr_value": -Infinity,
+      "checkpoint_score_attr": "training_iteration",
+      "_checkpoint": "80049553000000000000008c0e7261792e74756e652e747269616c948c0a436865636b706f696e749493942981947d94288c0773746f72616765948c046469736b948c0576616c7565944e8c0b6c6173745f726573756c74947d9475622e",
+      "export_formats": [],
+      "status": "TERMINATED",
+      "logdir": "/home/raywu/personal/nni_demo/nni_demo/ray_results/exp/train_mnist_0_hidden=50,lr=0.051375,momentum=0.89648_2019-11-07_10-39-14ecsvonrf",
+      "runner": null,
+      "result_logger": null,
+      "last_debug": 1573094413.9989564,
+      "error_file": null,
+      "error_msg": null,
+      "num_failures": 0,
+      "custom_trial_name": null,
+      "results": "80049502000000000000004e2e",
+      "best_result": "80049502000000000000004e2e",
+      "param_config": "80049502000000000000004e2e",
+      "extra_arg": "80049502000000000000004e2e",
+      "_nonjson_fields": [
+        "_checkpoint",
+        "loggers",
+        "sync_to_driver_fn",
+        "results",
+        "best_result",
+        "param_config",
+        "extra_arg"
+      ],
+      "__logger_started__": false
+    }
+  ],
+  "runner_data": {
+    "_global_time_limit": Infinity,
+    "_total_time": 57.936272382736206,
+    "_iteration": 301,
+    "_verbose": true,
+    "_server_port": 4321,
+    "_local_checkpoint_dir": "/home/raywu/personal/nni_demo/nni_demo/ray_results/exp",
+    "_remote_checkpoint_dir": null,
+    "_resumed": false,
+    "_start_time": 1573094354.3331518,
+    "_last_checkpoint_time": 1573094414.0039217,
+    "_checkpoint_period": 10,
+    "_session_str": "2019-11-07_10-39-14",
+    "checkpoint_file": "/home/raywu/personal/nni_demo/nni_demo/ray_results/exp/experiment_state-2019-11-07_10-39-14.json",
+    "launch_web_server": false
+  },
+  "stats": {
+    "start_time": 1573094354.3331518,
+    "timestamp": 1573094414.0039217
+  }
+}
